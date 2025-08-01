@@ -4,4 +4,13 @@ channels:
   - defaults
 dependencies:
   - python=3.10.16
+  - nvidia/label/cuda-12.3.2::cuda-toolkit
+  - numpy
+  - pandas
+  - scikit-learn
+  - tensorboard
+  - pip
+  - pip:
+      - transformers
+      - datasets
 prefix: /home/zliu/miniconda3/envs/adv310
